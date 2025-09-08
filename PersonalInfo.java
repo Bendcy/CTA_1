@@ -1,5 +1,6 @@
 public class PersonalInfo {
 
+    // Main method to execute the program
     public static void main(String[] args) {
         String firstName = "John";
         String lastName = "Doe";
@@ -7,6 +8,7 @@ public class PersonalInfo {
         String city = "LalaLand";
         String zipCode = "24680";
 
+        // Print the personal information
         System.out.println("First Name: " + firstName);
         System.out.println("Last Name: " + lastName);
         System.out.println("Street Address: " + streetAddress);
